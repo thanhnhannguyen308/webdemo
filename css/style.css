@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 100%;
+}
+
+@media all and (max-width: 899) {
+ /* Css ruler for martphone */
+    .part1{
+        background: #000000 0% 0% no-repeat padding-box;
+        width: 100%;
+        height: 1584px;
+        background-image: url("../images/Rectangle1.png");
+    }
+
+    
+}
+ 
+@media all and (min-width: 900px) {
+    
+    .part1{
+        background: #000000 0% 0% no-repeat padding-box;
+        width: 100%;
+        height: 1584px;
+        background-image: url("../images/Rectangle1.png");
+    }
+
+    .corsiva{
+        top: 154px;
+        left: 70px;
+        background-color: blue;
+        width: 58px;
+        height: 198px;
+    }
+    
+    .part1-title{
+        width: 1414px;
+        height: 140px;
+        /* background-color: blueviolet; */
+        margin-top: 92px;
+        margin-left: 56px;
+        text-align: center;
+        color: #ffffff;
+        opacity: 1;
+        letter-spacing: 5.36px
+    }
+    
+    .part1-title p{
+        letter-spacing: 2px;
+        color: #ffffff;
+        opacity: 0.6;
+        font-size: 25px;
+        font-family: 'Poppins';
+    }
+
+    .part1-title span{
+        letter-spacing: 2px;
+        color: #ffffff;
+        opacity: 1;
+        font-size: 67px;
+        font-family: 'Poppins';
+    }
+
+    .part1-title1{
+        width: 484px;
+        height: 57px;
+        /* background-color: aqua; */
+        text-align: center;
+        margin-left: 36%;
+    }
+
+    .part1-title1 p{
+        text-align: center;
+        color: #ffffff;
+        opacity: 0.8;
+        font-size: 35px;
+        font-family: 'Poppins';
+
+    }
+
+    .part1-line{
+        border: 1px solid black;
+        width: 1px;
+        height: 140px;
+        opacity: 1;
+        background-color: #ffffff;
+        margin-left: 50%;
+        /* color: #ffffff; */
+        margin-top: 103px;
+    }
+
+    .part1-content{
+        /* background-color: aquamarine; */
+        height: 186px;
+        padding-top: 100px;
+    }
+
+    .part1-content-left{
+        float: left;
+        font-size: 35px;
+        width: 149px;
+        font-family: 'Poppins';
+        padding-left: 312px;
+        color: #ffff;
+    }
+
+    .part1-content-right{
+        float: right;
+        width: 423px;
+        height: 129px;
+        color: #ffffff;
+        font-size: 17px;
+        font-family: 'Poppins';
+        text-align: right;
+        padding-right: 300px;
+    }
+
+    .part1-button-left{
+        float: left; 
+        border: 1px solid yellow;
+        width: 166px;
+        height: 47px;
+        font-size: 30px;
+        margin-left: 50%;
+    }
+
+    .part1-button-left a{
+        text-decoration: none;
+        color: yellow;
+    }
+
+    .part1-button-right{
+        float: right;
+        background-color: yellow;
+        width: 206px;
+        height: 47px;
+        margin-right: 300px;
+        font-size: 30px;
+    }
+
+    .part1-button-right a{
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .part1-content1{
+        margin-top: 100px;
+        color: #FFFFFF;
+        padding-left: 312px;
+        letter-spacing: 1.5px;
+        width: 500px;
+    }
+
+    .part1-content1 p{
+        letter-spacing: 2px;
+        padding-top: 5px;
+    }
+
+    .part1-content2{
+        margin-top: 50px;
+    }
+
+    .part1-content2-left{
+        width: 50%;
+        padding-left: 312px;
+        color: gray;
+        font-size: 23px;
+    }
+
+    .part1-content2-left hr{
+        margin-top: 30px;
+        width: 236px;
+    }
+
+    .part2{
+        padding-top: 30px;
+        text-align: center;
+        letter-spacing: 10px;
+    }
+
+    .part2 p{
+        text-align: center;
+    }
+    
+    .part3{
+        margin-top: 100px;
+        width: 100%;
+        height: 400px;
+    }
+
+    .part3-left{
+        float: left;
+        width: 400px;
+        height: 320px;
+        padding-left: 312px;
+    }
+
+    .part3-right{
+        float: right;
+        width: 500px;
+        padding-right: 215px;
+        text-align: right;
+    }
+    
+    .part4{
+        width: 100%;
+        text-align: center;
+        height: 500px;
+        background-image: url("../images/stock-photo-administrator-business-man-financial-inspector-and-secretary-making-report-calculating-balance-574879378.png");
+    }
+    
+    .part4 h2{
+        padding-top: 60px;
+        padding-bottom: 30px;
+        font-size: 42px;
+        color: yellow;
+        letter-spacing: 3px;
+    }
+
+    .part4 p{
+        color: #ffffff;
+        font-size: 21px;
+        letter-spacing: 4px;
+    }
+
+    .part4-button{
+        width: 162px;
+    border-radius: 7px;
+    height: 50px;
+    background-color: yellow;
+    font-size: 30px;
+    margin-top: 145px;
+    margin-left: 45%;
+
+    }
+
+    .part4-button a{
+        text-decoration: none;
+    }
+
+    .part5{
+        margin-top: 30px;
+    }
+
+    .part5 p{
+        padding-top: 30px;
+        text-align: center;
+        color: yellow;
+        font-size: 42px;
+        
+    }
+
+
+    .footer{
+        width: 100%;
+        height: 1000px;
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+
+    .footer-form{
+        float: right;
+        padding-right: 300px;
+        padding-top: 50px;
+    }
+
+    input{
+        width: 400px;
+        margin-top: 30px;
+        height: 30px;
+        background-color: rgb(207, 198, 198);
+        color: #FFFFFF;
+    }
+
+    .footer-content{
+        padding-top: 500px;
+        padding-left: 200px;
+    }
+
+    .footer-end{
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        background-color: yellow;
+        text-align: center;
+    }
+}
+/* 
+.part1{ 
+    top: 0px;
+    left: 0.7109375px;
+    width: 100%;
+    height: 1584px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.4;
+    background-image: url("../images/Rectangle1.png");
+} */
+
