@@ -5,6 +5,7 @@
 
 .container{
     max-width: 100%;
+
 }
 
 @media all and (max-width: 899) {
@@ -14,6 +15,7 @@
         width: 100%;
         height: 1584px;
         background-image: url("../images/Rectangle1.png");
+
     }
 
     
@@ -26,6 +28,7 @@
         width: 100%;
         height: 1584px;
         background-image: url("../images/Rectangle1.png");
+
     }
 
     .corsiva{
@@ -34,6 +37,7 @@
         background-color: blue;
         width: 58px;
         height: 198px;
+
     }
     
     .part1-title{
@@ -46,6 +50,7 @@
         color: #ffffff;
         opacity: 1;
         letter-spacing: 5.36px
+
     }
     
     .part1-title p{
@@ -54,6 +59,7 @@
         opacity: 0.6;
         font-size: 25px;
         font-family: 'Poppins';
+
     }
 
     .part1-title span{
@@ -62,6 +68,7 @@
         opacity: 1;
         font-size: 67px;
         font-family: 'Poppins';
+        
     }
 
     .part1-title1{
